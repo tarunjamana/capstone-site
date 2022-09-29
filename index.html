@@ -1,0 +1,358 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <!--Data Layer to enable rich data collection and targeting-->
+    <script>
+        var digitalData = {
+          page: {
+            pageInfo: {
+              pageName: "Home Page",
+            },
+          },
+          profile: {
+            memberType: "silver",
+          },
+          auth: {
+            isLoggedIn: true,
+          },
+          type:{
+            singleUser:false
+          }
+        };
+      </script>
+      <!--/Data Layer-->
+      <!--jQuery or other helper libraries-->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <!--/jQuery-->
+      <!--prehiding snippet for Adobe Target with asynchronous tags deployment-->
+      <script>
+        (function (g, b, d, f) {
+          (function (a, c, d) {
+            if (a) {
+              var e = b.createElement("style");
+              e.id = c;
+              e.innerHTML = d;
+              a.appendChild(e);
+            }
+          })(b.getElementsByTagName("head")[0], "at-body-style", d);
+          setTimeout(function () {
+            var a = b.getElementsByTagName("head")[0];
+            if (a) {
+              var c = b.getElementById("at-body-style");
+              c && a.removeChild(c);
+            }
+          }, f);
+        })(window, document, "body {opacity: 0 !important}", 3e3);
+      </script>
+      <script>
+        window.targetGlobalSettings = {
+          cookieDomain: "heartfelt-praline-c8cd0d.netlify.app",
+        };
+      </script>
+      <!--/prehiding snippet for Adobe Target with asynchronous tags deployment-->
+      <!--Tags Header Embed Code: REPLACE LINE 39 WITH THE EMBED CODE FROM YOUR OWN DEVELOPMENT ENVIRONMENT-->
+      <script src="https://assets.adobedtm.com/6268dc4b6b26/0ad0fcd6c928/launch-2108b2c729dc-development.min.js" async></script>
+      <!--/Tags Header Embed Code-->
+</head>
+<body>
+    <!-- <div class="container-fluid bg-brown ">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 ">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none ">
+            <span class="fs-4 txt-color-white">DEMO</span>
+          </a>
+    
+          <ul class="nav nav-pills ">
+            <li class="nav-item mx-3"><a href="#" class="nav-link txt-color-white active" aria-current="page">Home</a></li>
+            <li class="nav-item mx-3"><a href="#" class="nav-link txt-color-white">Features</a></li>
+            <li class="nav-item mx-3"><a href="#" class="nav-link txt-color-white">Pricing</a></li>
+            <li class="nav-item mx-3"><a href="#" class="nav-link txt-color-white">FAQs</a></li>
+            <li class="nav-item mx-3"><a href="#" class="nav-link txt-color-white">About</a></li>
+          </ul>
+        </header>
+      </div> -->
+
+      <!-- header start -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-brown" aria-label="Tenth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0  text-dark text-decoration-none desktop-hide ">
+            <span class="fs-4 txt-color-white">DEMO</span>
+          </a>
+          <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08" style="">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none mobile-hide">
+              <span class="fs-4 txt-color-white">DEMO</span>
+            </a>
+            <ul class="navbar-nav">
+              <ul class="nav nav-pills disp-horizontal">
+                <li class="nav-item mx-3"><a href="#" class="nav-link txt-color-white active" aria-current="page">Home</a></li>
+                <li class="nav-item mx-3"><a href="#" class="nav-link txt-color-white">Team</a></li>
+                <li class="nav-item mx-3"><a href="#" class="nav-link txt-color-white">Projects</a></li>
+                <li class="nav-item mx-3"><a href="#" class="nav-link txt-color-white">Reports</a></li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+   <!-- header end -->
+
+      <!-- carousel start -->
+      <div id="carouselExampleControls" class="carousel slide bg-brown" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="conatiner ">
+              <div class="row justify-content-center align-items-center mt-4 column-reverse">
+                <div class="col carousel-text-section">
+                  <h2 class="txt-color-white mb-3">Lorem ipsum dolor sit</h2>
+                  <p class="h6 txt-color-white mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <a href="#" class="btn btn-light btn-lime">Read More Here</a>
+                </div>
+                <div class="col">
+                  <img src="./assets/carousel image.jpeg" alt="caousel-image">
+                </div>
+              </div>
+            </div>
+      
+          </div>
+          <div class="carousel-item">
+            <div class="conatiner ">
+              <div class="row justify-content-center align-items-center mt-4 column-reverse">
+                <div class="col carousel-text-section">
+                  <h2 class="txt-color-white mb-3">Lorem ipsum dolor sit</h2>
+                  <p class="h6 txt-color-white mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <a href="#" class="btn btn-light btn-lime">Read More Here</a>
+                </div>
+                <div class="col">
+                  <img src="./assets/carousel image.jpeg" alt="caousel-image">
+                </div>
+              </div>
+            </div>      
+          </div>
+          <div class="carousel-item active">
+            <div class="conatiner ">
+              <div class="row justify-content-center align-items-center mt-4 column-reverse">
+                <div class="col carousel-text-section">
+                  <h2 class="txt-color-white mb-3">Lorem ipsum dolor sit</h2>
+                  <p class="h6 txt-color-white mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <a href="#" class="btn btn-light btn-lime">Read More Here</a>
+                </div>
+                <div class="col">
+                  <img src="./assets/carousel image.jpeg" alt="caousel-image">
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- carousel end -->
+
+<!-- conatiner with background Image section start -->
+<section>
+  <div class="container-fluid bg-image">
+    <!-- hovered cards section start -->
+    <div class="container">
+      <div class="row align-items-center stacked-cards">
+        <div class="col">
+         <a href="#" class="mt-3 mt-sm-0 hovered-card">
+          <div class="image-container mx-4 my-4">
+             <img src="./assets/small-image.jpeg" alt="small image">
+          </div>
+          <div class="text-container">
+          <h2 class="txt-black">Service Title</h2>
+         <p class="h4 txt-wrap txt-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+          </div>
+         </a>
+        </div>
+        <div class="col">
+          <a href="#" class="mt-3 mt-sm-0 hovered-card">
+            <div class="image-container mx-4 my-4">
+               <img src="./assets/small-image.jpeg" alt="small image">
+            </div>
+            <div class="text-container">
+            <h2 class="txt-black">Service Title</h2>
+           <p class="h4 txt-wrap txt-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+            </div>
+           </a>
+        </div>
+        <div class="col">
+          <a href="#" class="mt-3 mt-sm-0 hovered-card">
+            <div class="image-container mx-4 my-4">
+               <img src="./assets/small-image.jpeg" alt="small image">
+            </div>
+            <div class="text-container">
+            <h2 class="txt-black">Service Title</h2>
+           <p class="h4 txt-wrap txt-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+            </div>
+           </a>
+        </div>
+        <div class="col">
+          <a href="#" class="mt-3 mt-sm-0 hovered-card">
+            <div class="image-container mx-4 my-4">
+               <img src="./assets/small-image.jpeg" alt="small image">
+            </div>
+            <div class="text-container">
+            <h2 class="txt-black">Service Title</h2>
+           <p class="h4 txt-wrap txt-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+            </div>
+           </a>
+        </div>
+      </div>
+    </div>
+    <!-- hovered cards section end -->
+<!-- Latest Work Section Start -->
+<div class="container line-heading d-flex justify-content-center mt-4">
+  <hr class="divider">
+  <h4 class="txt-color-white rounded-head ">LATEST WORK</h4>
+</div>
+
+<div class="container mt-4">
+  <div class="row mb-4 stacked-cards">
+   <div class="col mb-sm-3">
+ <a href="#" class="bordered-container">
+  <div class="big-image-container">
+    <img src="./assets/big-image.jpeg" alt="">
+  </div>
+  <div class="info-text">
+    <h4 class="txt-color-white ">Lorem Ipsum Delerom</h4>
+  </div>
+ </a>
+   </div>
+   <div class="col mb-sm-3">
+    <a href="#" class="bordered-container">
+      <div class="big-image-container">
+        <img src="./assets/big-image.jpeg" alt="">
+      </div>
+      <div class="info-text">
+        <h4 class="txt-color-white ">Lorem Ipsum Delerom</h4>
+      </div>
+     </a>
+  </div>
+  <div class="col mb-sm-3">
+    <a href="#" class="bordered-container">
+      <div class="big-image-container">
+        <img src="./assets/big-image.jpeg" alt="">
+      </div>
+      <div class="info-text">
+        <h4 class="txt-color-white ">Lorem Ipsum Delerom</h4>
+      </div>
+     </a>
+  </div>
+  </div>
+  <div class="row stacked-cards">
+    <div class="col mb-sm-3">
+      <a href="#" class="bordered-container">
+        <div class="big-image-container">
+          <img src="./assets/big-image.jpeg" alt="">
+        </div>
+        <div class="info-text">
+          <h4 class="txt-color-white ">Lorem Ipsum Delerom</h4>
+        </div>
+       </a>
+    </div>
+    <div class="col mb-sm-3">
+      <a href="#" class="bordered-container">
+        <div class="big-image-container">
+          <img src="./assets/big-image.jpeg" alt="">
+        </div>
+        <div class="info-text">
+          <h4 class="txt-color-white ">Lorem Ipsum Delerom</h4>
+        </div>
+       </a>
+   </div>
+   <div class="col mb-sm-3">
+    <a href="#" class="bordered-container">
+      <div class="big-image-container">
+        <img src="./assets/big-image.jpeg" alt="">
+      </div>
+      <div class="info-text">
+        <h4 class="txt-color-white ">Lorem Ipsum Delerom</h4>
+      </div>
+     </a>
+   </div>
+   </div>
+</div>
+<!-- Latest Work section End -->
+  </div>
+</section>
+<!-- conatiner with background Image section end -->
+
+<!-- footer section start -->
+<footer class="bg-grey footer-container">
+  <div class="container bg-grey">
+    <div class="conatiner">
+         <div class="row stacked-cards">
+          <div class="col mx-3">
+            <h3 class="txt-color-white">From The Blog</h3>
+            <div class="post">
+              <h5 class="footer-title">Post Title</h5>
+              <p class="h6 txt-color-white"><span class="footer-title">Admin</span>.domianname.com</p>
+              <p class="h6 txt-color-white">Friday 6th april 22</p>
+              <p class="h6 txt-color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus incidunt et vitae, magnam fugiat recusandae, cupiditate reprehenderit quia, provident unde tempore obcaecati aspernatur omnis error. Neque dolore explicabo mollitia ea.</p>
+              <a href="#" class="footer-link">Read More</a>
+            </div>
+          </div>
+          <div class="col mx-3">
+            <h3 class="txt-color-white">Quick Links</h3>
+            <ul>
+              <li class="footer-link-spacing">
+                <a class="footer-link" href="#">Home</a>
+              </li>
+              <li class="footer-link-spacing">
+                <a class="footer-link" href="#">About</a>
+              </li>
+              <li class="footer-link-spacing">
+                <a  class="footer-link"href="#">Contact</a>
+              </li class="footer-link-spacing">
+              <li class="footer-link-spacing">
+                <a class="footer-link" href="#">profile</a>
+              </li>
+              <li class="footer-link-spacing">
+                <a class="footer-link" href="#">products</a>
+              </li>
+              <li class="footer-link-spacing">
+                <a class="footer-link" href="#">products</a>
+              </li>
+              <li class="footer-link-spacing">
+                <a class="footer-link" href="#">products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col mx-3">
+            <h3 class="txt-color-white"sss>Latest Tweets</h3>
+             <p class="h6 txt-color-white"><span class="footer-title">@user1</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam in ad iusto quod</p>
+             <p class="h6 txt-color-white"><span class="footer-title">@user2</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam in ad iusto quod</p>
+          </div>
+          <div class="col mx-3">
+            <h3 class="txt-color-white">Contact Us</h3>
+            <input class="form-control mb-2 form-background" type="text" name="FullName" id="" placeholder="fullName">
+            <input class="form-control mb-2 form-background" type="email" name="Email Address" id="" placeholder="Email Address">
+            <input class="form-control mb-2 form-background" type="text" name="Subject" placeholder="Subject">
+           <textarea class="form-control mb-2 form-background" type="text" name="Message" placeholder="Message" id="" cols="10" rows="3"></textarea>
+           <a href="#" class="btn btn-light btn-lime-submit">Submit</a>
+          </div>
+         </div>
+    </div>
+  </div>
+</footer>
+
+<!-- footer section end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
